@@ -96,7 +96,7 @@ div h2 {
 }
 
 .main1 h3 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -127,7 +127,7 @@ div h2 {
 }
 
 .icons a {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     padding-right: 30px;
 }
@@ -154,7 +154,7 @@ div h2 {
     box-shadow: 0 5px 25px rgba(1, 1, 1, 0.15);
     border-radius: 10px;
     padding: 25px;
-    margin: 10px;
+    margin: 15px;
     transition: 1s ease;
 }
 
@@ -242,9 +242,9 @@ footer .icons a:hover {
 
 @media(max-width:1023px) {
 
-    .main1{
+    .main1 {
         background-position-x: 70%;
-     }
+    }
 
     .title {
         font-weight: 1.8em;
@@ -252,19 +252,19 @@ footer .icons a:hover {
 
     section {
         padding: 100px 20px;
-        
+
     }
 
     .main1 {
         margin-top: 45px;
         display: flex;
         justify-content: center;
-        background-position:end ;
+        background-position: end;
     }
 
 
     .main1 h2 {
-       
+
         align-items: center;
         text-align: center;
     }
@@ -275,24 +275,24 @@ footer .icons a:hover {
     }
 
 
-.p_btm {
-    display: flex;
-    justify-content: center;
-}
+    .p_btm {
+        display: flex;
+        justify-content: center;
+    }
 
-a.main-btn {
-    margin-top: 30px;
-}
+    a.main-btn {
+        margin-top: 30px;
+    }
 
-.icons {
-    display: flex;
-    justify-content: center;
+    .icons {
+        display: flex;
+        justify-content: center;
 
-}
+    }
 
-.icons a {
-    padding: 20px;
-}
+    .icons a {
+        padding: 20px;
+    }
 
 }
 
@@ -302,9 +302,10 @@ a.main-btn {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
-    .f-title{
+
+    .f-title {
         margin-bottom: 20px;
     }
 
@@ -330,9 +331,13 @@ a.main-btn {
 
         margin: 0 10px;
     }
-.main1{
-   background-position-x: 70%;
-}
+
+    .main1 {
+        background-position-x: 70%;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+
     .main1 h3 {
         font-size: 1.4em;
         text-align: center;
@@ -342,37 +347,44 @@ a.main-btn {
         font-size: 2.5em;
 
     }
+
     .main1 h2 {
         font-size: 1.3em;
-        
+
     }
-    .card2 p{
-    font-size :14px; 
+
+    .card2 p {
+        font-size: 14px;
 
     }
 
 }
-@media(max-width: 300px){
-    .main1{
-        font-size:12px ;
+
+@media(max-width: 300px) {
+    .main1 {
+        font-size: 12px;
     }
-    header{
+
+    header {
         padding: 7px 0;
         font-size: 12px;
     }
-    
-    .navigation a{
+
+    .navigation a {
         padding: 5px;
         margin: 0 5px;
-      
+
     }
-    .card2 p{
-        font-size :12px; 
-       
+
+    .card2 p {
+        font-size: 12px;
+
     }
-    .card2{
+
+    .card2 {
         padding: 25px 5px;
     }
+
     .f-title {
         font-size: 13px;
     }
