@@ -96,7 +96,7 @@ div h2 {
 }
 
 .main1 h3 {
-    color: rgb(0, 0, 0);
+    color:aqua;
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -335,7 +335,7 @@ footer .icons a:hover {
     .main1 {
         background-position-x: 70%;
         background-attachment: fixed;
-        background-size: contain;
+        background: fixed;
     }
 
     .main1 h3 {
