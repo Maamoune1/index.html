@@ -92,16 +92,20 @@ div h2 {
     color: aqua;
     font-size: 3em;
     font-weight: 700;
-
+    text-transform: uppercase;  
 }
 
 .main1 h3 {
-    color:aqua;
+
+   
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
+    background-image: linear-gradient(to left,rgb(238, 2, 255),rgba(30, 0, 255, 0.848), rgb(96, 96, 229),rgba(18, 228, 193, 0.848),rgb(224, 3, 240),rgb(125, 7, 234));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 
 }
 
@@ -323,13 +327,17 @@ footer .icons a:hover {
     }
 
     header a {
-
+       
         padding: 10px;
     }
 
     .navigation a {
-
-        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        width: 105px;
+        margin: 0 ;
     }
 
     .main1 {
@@ -351,6 +359,10 @@ footer .icons a:hover {
     .main1 h2 {
         font-size: 1.3em;
 
+    }
+    a.main-btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .card2 p {
