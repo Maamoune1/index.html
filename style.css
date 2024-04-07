@@ -76,7 +76,7 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
+    z-index: 999;
 }
 
 div h2 {
@@ -103,9 +103,9 @@ div h2 {
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
-    background-image: linear-gradient(to left,rgb(238, 2, 255),rgba(30, 0, 255, 0.848), rgb(96, 96, 229),rgba(18, 228, 193, 0.848),rgb(224, 3, 240),rgb(125, 7, 234));
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to left,rgb(238, 2, 255),rgba(30, 0, 255, 0.848), rgb(96, 96, 229),rgb(224, 3, 240),rgb(125, 7, 234));
+    background-clip: text;
+    color: transparent;
 
 }
 
@@ -131,7 +131,10 @@ div h2 {
 }
 
 .icons a {
-    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to left,rgb(175, 2, 255),rgba(30, 0, 255, 0.848), rgb(96, 96, 229),rgb(224, 3, 240),rgb(125, 7, 234));
+    background-clip: text;
+    color: transparent;
+ 
     font-size: 2em;
     padding-right: 30px;
 }
